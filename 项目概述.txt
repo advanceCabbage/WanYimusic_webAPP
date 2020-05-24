@@ -1,0 +1,4 @@
+本项目采用react+ts+antd为技术主要框架
+打包工具使用webpack
+Css 使用scss
+图标使用iconfont
