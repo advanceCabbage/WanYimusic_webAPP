@@ -13,6 +13,6 @@ actions 存放与后台交互的接口信息
 utils 存放工具函数或者模块化公用的函数
 containers 存放私有组件
 routes  存放路由信息
-reducers 
+reducers  
 
 
