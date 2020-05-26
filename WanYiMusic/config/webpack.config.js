@@ -321,6 +321,10 @@ module.exports = function(webpackEnv) {
     module: {
       strictExportPresence: true,
       rules: [
+        // {
+        //     test: /\.s?css$/, 
+        //     loader: 'style-loader!css-loader!sass-loader'
+        // },
         // Disable require.ensure as it's not a standard language feature.
         { parser: { requireEnsure: false } },
 

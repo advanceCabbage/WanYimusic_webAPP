@@ -1,0 +1,14 @@
+                                本文件记录开发的点点滴滴
+1.git中repositories仓库创建项目WanYimusic_webAPP,本地环境安装node,git环境,创建本地git密钥,
+本地密钥拷贝到git设置为SSH密钥,SSH密钥可以设置多个,可满足在公司内网使用gitlab提交代码
+2.npm run eject 命令暴露create-react-app生成的react项目的webpack配置文件
+3.react项目中集成TS 
+    1)npm install --save-dev typescript awesome-typescript-loader source-map-loader
+    2)项目的根目录下创建tsconfig.json 文件
+4.项目中引入SCSS  
+    1)npm install --save-dev css-loader style-loader node-sass sass-loader
+    2)webpack.config.js中在module下的rules中加入以下内容
+    {
+        test: /\.s?css$/, 
+        loader: 'style-loader!css-loader!sass-loader'
+    }
