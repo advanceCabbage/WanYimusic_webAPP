@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './containers/App.tsx';
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import routes from './routes/index'
+import {Router,hashHistory } from 'react-router'
+import store from './store/index.ts'
+ReactDOM.render((
+  <Router store={store}  history={hashHistory} routes={routes}></Router>
+), document.getElementById('root'));
+

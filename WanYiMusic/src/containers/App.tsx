@@ -1,16 +1,14 @@
 import * as  React from 'react';
-import './App.scss';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit adad<code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+export default class APP extends React.Component{
+  constructor(props:any){
+    super(props)
+    this.state ={}
+  }
+  render(){
+    return(
+      <div>
+        {this.props.children}
+      </div>
+    )
+  }
+};

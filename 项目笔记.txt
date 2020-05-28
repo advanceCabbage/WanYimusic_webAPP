@@ -8,5 +8,9 @@
 4.项目中引入SCSS  
     1)npm install --save-dev css-loader style-loader node-sass sass-loader
     2)webpack.config.js中无需添加scss配置,原项目中已经添加
-5.项目引入TS使用的react-router-dom
-    1)npm install @types/react-router-dom
+5.项目引入TS使用的react-router
+    1)npm i -S react-router@3.0.5 @types/react-router@3.0.5
+6.项目集成Ts版Redux
+    1)npm install -S redux react-redux @types/react-redux
+7.项目按需引入antd
+    1)npm i antd --save
