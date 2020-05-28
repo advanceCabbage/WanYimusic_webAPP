@@ -14,3 +14,4 @@
     1)npm install -S redux react-redux @types/react-redux
 7.项目按需引入antd
     1)npm i antd --save
+    2)npm install react-app-rewired --dev
