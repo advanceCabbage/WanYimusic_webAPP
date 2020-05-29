@@ -14,4 +14,15 @@
     1)npm install -S redux react-redux @types/react-redux
 7.项目按需引入antd
     1)npm i antd --save
-    2)npm install react-app-rewired --dev
+    2)由于本项目已经使用npm run eject 暴露了webpack配置文件 不能在使用官网的react-app-rewired来实现antd按需引入
+    ;我们通过修改package.json中babel添加
+    "plugins": [
+        [
+            "import",
+            {
+            "libraryName": "antd",
+            "style": "css"
+            }
+        ]
+    ]
+    实现antd按需加载

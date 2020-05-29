@@ -5,7 +5,8 @@
         "noImplicitAny": true,
         "module": "commonjs",
         "target": "es5",
-        "jsx": "react"
+        "jsx": "react",
+        "esModuleInterop":true,/* 未设置esModuleInterop为true 会报can only be default-imported using the 'esModuleInterop' 错误*/
     },
     "include": [
         "./src/**/*"
