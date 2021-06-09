@@ -1,1 +1,1 @@
-<script>let c = 'sd' let b = 'ss' let</script>;
+<script>2</script>;
