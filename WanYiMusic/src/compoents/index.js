@@ -1,1 +1,1 @@
-<script>4</script>;
+<script>2</script>;
